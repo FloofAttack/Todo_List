@@ -1,0 +1,29 @@
+html,
+body {
+    min-width: 500px;
+    min-height: 200px;
+    font-size: 16px;
+}
+button {
+    border: 1.7px solid black;
+    width: 120px;
+    padding: 1px;
+    text-align: center;
+    font-size: 14px;
+    margin-left: 5px;
+    cursor: pointer;
+    background-color: #E5F2F2;
+}
+button[type="button1"] {
+    background-color: #FBFBC9;
+}
+button[type="button1"]:hover {
+    background-color: #FF4500;
+}
+button[type="button2"] {
+    background-color: #90EE90
+}
+button[type="button2"]:hover {
+    background-color: #FF4500;
+}
+
